@@ -17,9 +17,9 @@ import { HomeComponent } from './home/home.component';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    RouterModule.forRoot([
-      {path:"",component:HomeComponent}
-    ])
+    // RouterModule.forRoot([
+    //   {path:"",component:HomeComponent}
+    // ])
 
   ],
   providers: [],

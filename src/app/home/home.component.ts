@@ -8,19 +8,19 @@ import {Http,Response,Headers}  from '@angular/http';
 })
 export class HomeComponent implements OnInit {
 
-  constructor(private http:Http) { }
+  constructor() { }
 
   products=[];
-  fetchData=function(){
-    this.http.get("http://localhost:5555/products").subscribe(
-      (res:Response)=>  {
-        this.products=res.json();
-      }
-    )
-  }
+  // fetchData=function(){
+  //   this.http.get("http://localhost:5555/products").subscribe(
+  //     (res:Response)=>  {
+  //       this.products=res.json();
+  //     }
+  //   )
+  // }
 
   ngOnInit() {
-    this.fetchData();
+    //this.fetchData();
   }
   
 
