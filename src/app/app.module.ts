@@ -6,7 +6,7 @@ import {FormsModule} from '@angular/forms';
 import {RouterModule} from '@angular/router';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
-
+import { HttpModule } from '@angular/http';
 
 @NgModule({
   declarations: [
@@ -17,6 +17,7 @@ import { HomeComponent } from './home/home.component';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
+    HttpModule,
     RouterModule.forRoot([
       {path:"",component:HomeComponent}
     ])
