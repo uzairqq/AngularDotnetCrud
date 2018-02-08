@@ -4,6 +4,24 @@ table,td,th{
     font-size: 30px;
     padding: 10px;
 }
+
+form,label,input{
+    font-size: 30px;
+    padding: 10px;
+}
+
+input{
+    margin-top: 10px;
+}
+
+
+
 a{
+    color: blue;
     font-size: 30px
+}
+
+a:hover{
+    cursor: pointer;
+    color: blue;
 }
