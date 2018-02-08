@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Http,Response,Headers} from '@angular/http';
 
 @Component({
   selector: 'app-product',
@@ -6,8 +7,21 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./product.component.css']
 })
 export class ProductComponent implements OnInit {
-
-  constructor() { }
+  constructor(private http:Http) { }
+  confirmationString:string="New Record Has Been Inserted";
+  isAddded:boolean=false;
+  productObj:object=[];
+ 
+  addNewProduct=function(product){
+    this.productObj = {
+      "name": product.name,
+      "color": product.color
+    }
+  this.http.post("http://localhost:5555/products/",this.productObj).subscribe((res: Response) => {
+  //console.log(res);
+  this.isAdded=true;
+  });
+  }
 
   ngOnInit() {
   }

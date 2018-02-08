@@ -11,7 +11,8 @@ export class HomeComponent implements OnInit {
 
   constructor(private http:Http) { }
 
-  products=[];
+
+  products:object[];
   fetchData= function() {
     this.http.get("http://localhost:5555/products").subscribe(
       (res:Response) =>  {
