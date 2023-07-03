@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "tr2nem+fBworPSiYLBDwcaBKe9tEjBzoZc7OLtRvMya+c9Ac88QrCZObJ/Afnm4oDUJ3t0JXXf+AyOb7nX6AcA==",
+  "success": true,
+  "projectFilePath": "D:\\Development\\AngularDotnetCrud\\Fullstack.Backend\\FullStack.WebApi\\FullStack.WebApi\\FullStack.WebApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Omen\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Omen\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Omen\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\Omen\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\Omen\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\Omen\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
