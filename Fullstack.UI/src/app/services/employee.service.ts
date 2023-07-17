@@ -13,6 +13,6 @@ export class EmployeeService {
   constructor(private http: HttpClient) {}
 
   getAllEmployees(): Observable<EmployeeModel[]> {
-    return this.http.get<EmployeeModel[]>(this.baseApiUrl + '/api/employees');
+    return this.http.get<EmployeeModel[]>(this.baseApiUrl + 'api/employees');
   }
 }
