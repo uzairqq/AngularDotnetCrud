@@ -15,4 +15,12 @@ export class EmployeeService {
   getAllEmployees(): Observable<EmployeeModel[]> {
     return this.http.get<EmployeeModel[]>(this.baseApiUrl + 'api/employees');
   }
+
+  addEmployee(addEmployeeRequest: EmployeeModel): Observable<EmployeeModel> {
+    addEmployeeRequest.id = '00000000-0000-0000-0000-000000000000';
+    return this.http.post<EmployeeModel>(
+      this.baseApiUrl + 'api/employees',
+      addEmployeeRequest
+    );
+  }
 }
